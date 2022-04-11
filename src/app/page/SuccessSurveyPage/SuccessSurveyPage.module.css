@@ -1,0 +1,15 @@
+.container {
+    margin: 10px auto;
+    max-width: 1000px;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+}

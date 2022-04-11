@@ -1,0 +1,20 @@
+.copiedMessage {
+    position: fixed;
+    top: 80%;
+    left: 43%;
+    color: #ffff;
+    background-color: #5b6173;
+    padding: 5px 10px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.notDisplay {
+    opacity: 0;
+    pointer-events: none;
+    cursor: default;
+}
+
+.display {
+    opacity: 1;
+}

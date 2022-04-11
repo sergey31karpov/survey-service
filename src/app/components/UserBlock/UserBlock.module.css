@@ -1,0 +1,14 @@
+.container {
+    background-color: #eaecf1;
+    border-radius: 6px;
+    width: 20%;
+}
+
+.wrapper {
+    padding: 10px;
+}
+
+.avatar {
+    width: 170px;
+    height: 170px;
+}

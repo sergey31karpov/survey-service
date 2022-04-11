@@ -1,0 +1,25 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    height: 300px;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    transition: 0.3s;
+    box-shadow: 0 0 26px -4px rgba(34, 60, 80, 0.2);
+}
+
+.container:hover {
+    box-shadow: 0 0 26px -4px rgba(34, 60, 80, 0.35);
+}
+
+.item {
+    text-align: center;
+}
+
+.copy {
+    margin-left: 10px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+}

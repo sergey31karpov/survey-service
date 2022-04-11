@@ -1,0 +1,37 @@
+.wrapper {
+    position: relative;
+}
+
+.wrapper::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 6px 0 6px;
+    border-color: #5b6173 transparent transparent transparent;
+    pointer-events: none;
+}
+
+.select {
+    appearance: none;
+    outline: none;
+    border: 1px solid #5b6173;
+    border-radius: 4px;
+    padding: 7px 7px 7px 7px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.select:hover {
+    border: 1px solid #0095ff;
+}
+
+.select:focus {
+    border: 1px solid #0095ff;
+}

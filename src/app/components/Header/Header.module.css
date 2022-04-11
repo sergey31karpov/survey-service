@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px 5px;
+    height: 40px;
+    border-bottom: 1px solid #eaecf1;
+}
+
+.userBlock {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
